@@ -1,0 +1,70 @@
+@import "variables.sass"
+
+*
+    font-family: $site-font
+
+body
+    background-color: $body-bg
+
+#menu
+    background-color: $menu-bg
+    margin-top: $menu-margin-top
+    margin-left: $menu-margin-left
+    margin-right: $menu-margin-right
+    height: $menu-height
+
+#menu > #menu-content > #menu-icon
+    margin-left: $menu-icon-margin-left
+    margin-top: $menu-icon-margin-top
+
+#menu > #menu-content > #menu-icon:hover
+    cursor: $menu-cursor-pointer
+
+#menu > #menu-content > #menu-buttons
+    margin-left: $menu-link-margin-left
+    font-size: $menu-link-font-size
+    margin-top: $menu-link-margin-top
+
+#menu > #menu-content > #menu-buttons > a
+    text-decoration: $menu-link-style-off
+    color: $menu-link-color
+    transition: $menu-link-transition
+    margin-left: $menu-link-space
+
+#menu > #menu-content > #menu-buttons > a:hover
+    color: $menu-link-hover-color
+
+#content
+    text-align: $content-text-align
+
+li 
+    list-style-type: $li-list-style-type
+ul
+    margin-left: $ul-margin-left
+    padding-left: $ul-padding-left
+
+#header2
+    margin-top: $header2-margin-top
+
+#content1 > #img1
+    width: $img-width
+    height: $img-height
+    float: $img1-float
+
+#content1 > #text1
+    margin-top: $text1-margin-top
+    margin-left: $text1-margin-left
+    text-align: $text-text-align
+    float: $text1-float
+
+#content2 > #img2
+    width: $img-width
+    height: $img-height
+    float: $img2-float
+    margin-bottom: $img2-margin-bottom
+
+#content2 > #text2
+    margin-top: $text2-margin-top
+    margin-right: $text2-margin-right
+    text-align: $text-text-align
+    float: $text2-float
