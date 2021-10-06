@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,mDAAmD;AAgCnD,oDAAoD;AAqBpD,wDAAwD;AAUxD,6DAA6D",
+    "mappings": "AAAA,mDAAmD;AAgCnD,oDAAoD;AAqBpD,wDAAwD;AAUxD,6DAA6D;AAkC7D,8DAA8D",
     "sources": [
         "variables.sass"
     ],

@@ -2,6 +2,7 @@
 /*===================Home Pages===================*/
 /*===================Contacts Pages===================*/
 /*===================Students Life Pages===================*/
+/*===================Driving School Pages===================*/
 * {
   font-family: sans-serif;
 }
@@ -149,5 +150,82 @@ ul {
 #students-life-news3-img {
   width: 500px;
   height: 375px;
+}
+
+#driving-school-logo {
+  width: 1000px;
+  height: 300px;
+  margin-top: 30px;
+  margin-left: 170px;
+}
+
+#driving-school-pricelist {
+  text-align: center;
+  font-weight: bold;
+}
+
+#driving-school-pricelist-link {
+  text-decoration: none;
+  color: #157fc4;
+}
+
+#driving-school-pricelist-link:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+#driving-school-license-link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #157fc4;
+  vertical-align: 15px;
+}
+
+#driving-school-license-link:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+#driving-school-license-icon {
+  width: 50px;
+  height: 50px;
+}
+
+#driving-school-license-label {
+  text-align: center;
+}
+
+#driving-school-doc-for-students-header {
+  text-align: center;
+}
+
+#driving-school-documents-list {
+  text-align: center;
+}
+
+#driving-school-teachers-header {
+  text-align: center;
+}
+
+#driving-school-teachers-table {
+  margin-left: 250px;
+}
+
+#driving-school-teachers-table-header {
+  text-align: left;
+}
+
+#driving-school-teachers-photo-in-table {
+  width: 100px;
+  height: 149px;
+}
+
+#driving-school-teachers-fullname {
+  text-align: left;
+}
+
+#driving-school-teachers-img {
+  width: 774px;
+  height: 518px;
 }
 /*# sourceMappingURL=style.css.map */
