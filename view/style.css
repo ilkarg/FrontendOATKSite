@@ -211,21 +211,25 @@ ul {
   margin-left: 250px;
 }
 
-#driving-school-teachers-table-header {
+.driving-school-teachers-table-header {
   text-align: left;
 }
 
-#driving-school-teachers-photo-in-table {
+.driving-school-teachers-photo-in-table {
   width: 100px;
   height: 149px;
 }
 
-#driving-school-teachers-fullname {
+.driving-school-teachers-fullname {
   text-align: left;
 }
 
 #driving-school-teachers-img {
   width: 774px;
   height: 518px;
+}
+
+.driving-school-teachers-img-p {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
